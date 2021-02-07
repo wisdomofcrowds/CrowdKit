@@ -1,3 +1,2 @@
 # CrowdKit
-The initial commit was taken by Jing Zhang
-We use an access token.
+CrowdKit is a tool for knowledge learning with crowdsourcing.
