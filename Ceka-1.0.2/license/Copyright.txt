@@ -1,0 +1,74 @@
+----------------------------------------------------------------------------------------------------
+Copyright of CEKA
+---------------------------------------------------------------------------------------------------- 	
+ 	CEKA is a software package for developers and researchers to mine the wisdom of crowds. 
+	It makes the entire knowledge discovery procedure much easier, including analyzing qualities 
+	of workers, simulating labeling behaviors, inferring true class labels of instances, filtering 
+	and correcting mislabeled instances (noise), building learning models and evaluating them. 
+	It integrates a set of state-of-the-art inference algorithms, a set of general noise handling 
+	algorithms, and abundant functions for model training and evaluation. CEKA is written in Java
+	with core classes being compatible with the well-known machine learning tool WEKA, which makes 
+	the utilization of the functions in WEKA much easier.
+
+    Copyright (C) 2014 Jing Zhang, Victor S. Sheng, Bryce Nicolson, and Xindong Wu
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    
+----------------------------------------------------------------------------------------------------
+Copyrights of incorporated software
+----------------------------------------------------------------------------------------------------
+  
+CEKA incorporates with three pieces of open source software: SQUARE, 
+the Dawid & Skene algorithm implemented by Ipeirotis, and GLAD. 
+Their author, license and citation information is as follows.
+
+SQUARE (http://ir.ischool.utexas.edu/square/)
+Copyright (c) Aashish Sheshadri and Matthew Lease
+Citation: Aashish Sheshadri and Matthew Lease. SQUARE: A Benchmark for Research on Computing Crowd Consensus. In Proceedings of the 1st AAAI Conference on Human Computation (HCOMP), 2013.
+License: MIT License (which can be found in the source code package of CEKA)
+
+Dawid & Skene algorithm implemented by Iperotis (https://github.com/ipeirotis/Get-Another-Label)
+Copyright (c) Panagiotis G. Ipeirotis
+Citation: Panagiotis G. Ipeirotis, Foster Provost, and Jing Wang. Quality Management on Amazon Mechanical Turk. In Proceedings of the Second Human Computation Workshop (HCOMP), 2010
+License: Apache License v2.0 (which can be found in the source code package of CEKA)
+
+GLAD (http://mplab.ucsd.edu/~jake/OptimalLabelingRelease1.0.3.tar.gz)
+Copyright (c) 2009 Jacob Whitehill, Machine Perception Laboratory, University of California San Diego.
+Citation: Jacob Whitehill, Paul Ruvolo, Jacob Bergsma, Tingfan Wu and Javier Movellan. Whose Vote Should Count More: Optimal Integration of Labels from Labelers of Unknown Expertise. In Advances in Neural Information Processing Systems (NIPS), 2009.
+LICENSE:
+
+  Optimal Label Inference Software
+	Copyright (c) 2009 Jacob Whitehill, Machine Perception Laboratory, University of California San Diego.
+
+	Please use the following reference for citation of work that benefits from use of any portion of NMPT:
+
+	@inproceedings{WhitehillEtAl2009NIPS,
+	  author = "Jacob Whitehill and Paul Ruvolo and Jacob Bergsma and Tingfan Wu and Javier Movellan",
+	  title = "Whose Vote Should Count More: Optimal Integration of Labels from Labelers of Unknown Expertise",
+	  booktitle = "Advances in Neural Information Processing Systems",
+	  year = 2009
+	}
+
+	Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+	1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. 
+	2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. 
+	3. The name of the author may not be used to endorse or promote products derived from this software without specific prior written permission.
+
+	THIS SOFTWARE IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+	Author:
+	Jacob Whitehill, UC San Diego Department of Computer Science & Engineering, Machine Perception Laboratory
+	Date:
+	2009
