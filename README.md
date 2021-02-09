@@ -8,7 +8,7 @@ CrowdKit is a powerful toolkit for knowledge learning with crowdsourcing. Compar
 ## Label Aggregation (Truth Inference)
 1. **Marjority Voting (MV)** [Ceka]
 2. **Dawid & Skene's (DS)** [Ceka]
-3. **GLAD** [ZoneEx, by Whitehill, CPP source code and exe file]
+3. **GLAD** [Ceka, by Whitehill, CPP source code and exe file are in ZoneEx]
 4. **Karger, Oh, & Shah's (KOS)**[Ceka]
 5. **Raykar, Yu, et al.'s (RY)** [Ceka, by Sheshadri in [SQUARE](http://ir.ischool.utexas.edu/square/)]
 6. **ZenCrowd** [Ceka, by Sheshadri in [SQUARE](http://ir.ischool.utexas.edu/square/)]
